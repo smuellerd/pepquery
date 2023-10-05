@@ -4,7 +4,7 @@ Welcome to the PepQuery2 workshop!
 **Pepquery2** is a search engine for identifdying or validating
 known and novel peptide sequences of interest in any local or publicly available
 mass spectrometry-based proteomics datasets.
-**PepQuery2** exists as a Web Application <http://pepquery2.pepquery.org/> and a standalone version.
+**PepQuery2** exists as a `Web Application <http://pepquery2.pepquery.org/>` and a standalone version.
 
 The standalone version of PepQuery2 allows users to search more than one billion MS/MS data indexed 
 in the PepQueryDB from any computers with internet access. It also supports direct analysis of user provided 
@@ -17,7 +17,7 @@ how to :ref:`installation` the standalone version.
 
 .. note::
 
-   For more information check out the official PepQuery documentation <http://www.pepquery.org/document.html>.
+   For more information check out the official PepQuery `documentation <http://www.pepquery.org/document.html>`.
 
 Contents
 --------
