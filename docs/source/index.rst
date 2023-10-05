@@ -11,7 +11,7 @@ in the PepQueryDB from any computers with internet access. It also supports dire
 MS/MS data, any public datasets in PRIDE, MassIVE, jPOSTrepo and iProX, or Universal Spectrum 
 Identifiers (USIs) from ProteomeXchange.
 
-Check out the :doc:`usage` section for examples of how to use PepQuery2, including
+Check out the :doc:`standalone` section for examples of how to use PepQuery2, including
 how to :ref:`installation` the standalone version.
 
 
@@ -24,7 +24,7 @@ Contents
 
 .. toctree::
 
-   usage
+   standalone
 
 
 Citation
