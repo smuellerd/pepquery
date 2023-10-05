@@ -3,8 +3,7 @@
 # -- Project information
 
 project = 'PepQuery'
-copyright = '2023, Müller-Dott'
-author = 'Müller-Dott''
+copyright = '2023'
 
 release = '0.1'
 version = '0.1.0'
