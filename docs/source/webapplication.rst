@@ -1,4 +1,4 @@
-API
+Web Application
 ===
 
 .. autosummary::
