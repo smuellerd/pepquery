@@ -30,4 +30,5 @@ Contents
 Citation
 --------
 Wen, Bo, Xiaojing Wang, and Bing Zhang. "PepQuery enables fast, accurate, and convenient proteomic validation of novel genomic alterations." Genome research 29.3 (2019): 485-493.
+
 Wen, Bo, Kai Li, Yun Zhang, and Bing Zhang. "Cancer neoantigen prioritization through sensitive and reliable proteogenomics analysis." Nature communications 11. 1 (2020): 1-14.
