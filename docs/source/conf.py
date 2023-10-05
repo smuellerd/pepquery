@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'PepQuery'
+copyright = '2023, Müller-Dott'
+author = 'Müller-Dott''
 
 release = '0.1'
 version = '0.1.0'
