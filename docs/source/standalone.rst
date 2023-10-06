@@ -9,7 +9,7 @@ Installation
 To use the standalone version of PepQuery2, first install it on your computer:
 
 You must have Java 1.8 or newer installed. To check your java version please open your terminal 
-application and run the following command:
+application and run the following command. If you do not have Java installed, follow these `instructions <https://www.java.com/en/download/help/download_options.html>`_. 
 
 .. code-block:: console
 
