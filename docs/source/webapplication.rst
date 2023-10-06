@@ -18,10 +18,12 @@ from the KRAS G12D mutation?
 
 .. note::
 
-   The web server only allows to submit one job at a time.
+   You can also just play around with the Web Application and query different known or novel peptides/proteins in any of the datasets. 
 
 
 **Parameters to set**
+
+Here is a list of parameters you can send in the Web Application. In `italic` you can find one of the inputs for the example above.
 
 - MS/MS dataset: select one MS/MS dataset which you want to search. `CPTAC_TCGA_Colon_cancer_Proteome_PDC000111`
 - Task type: novel or known peptide/protein identification. `Novel peptide/protein`
@@ -42,4 +44,5 @@ After running your query you get the following results:
 
 3. **Spectrum annotation**: When you click on a PSM in the identification result you can see the corresponding spectrum. Additionally, you can look at the spectra from the best PSM in the reference database and the unrestricted modification-based search. 
 
+4. **Sample information**: In theory you can find the sample information for the selected row here. However this has never worked for me so far. 
 
