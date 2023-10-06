@@ -11,7 +11,7 @@ in the PepQueryDB from any computers with internet access. It also supports dire
 MS/MS data, any public datasets in PRIDE, MassIVE, jPOSTrepo and iProX, or Universal Spectrum 
 Identifiers (USIs) from ProteomeXchange.
 
-Examples
+Hands-on examples
 --------
 
 Check out the :doc:`webapplication` section for an example of how **PepQuery2** works
@@ -33,7 +33,7 @@ Contents
    standalone
 
 
-Citation
+Manuscripts
 --------
 Wen, Bo, Xiaojing Wang, and Bing Zhang. "PepQuery enables fast, accurate, and convenient proteomic validation of novel genomic alterations." Genome research 29.3 (2019): 485-493.
 
