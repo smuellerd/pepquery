@@ -53,7 +53,7 @@ are listed `here <http://pepquery.org/document.html#saparameter>`_.
 
 **Results**
 
-The results will appear in your specified output folder. The main result file of PepQuery is the ptm_rank.txt file. 
+The results will appear in your specified output folder. The main result file of PepQuery is the psm_rank.txt file. 
 This file includes the detailed identification results for the input target peptide. 
 You can open the psm_rank.txt file in excel and check how many PSMs 
 passed the quality checks (confident = 'Yes'). 
