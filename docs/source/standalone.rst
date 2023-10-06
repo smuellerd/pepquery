@@ -15,13 +15,13 @@ application and run the following command. If you do not have Java installed, fo
 
    java -version
 
-Next go to download the standalone version of PepQuery here <http://www.pepquery.org/data/pepquery-2.0.2.tar.gz>_. 
+Next go to download the standalone version of PepQuery `here <http://www.pepquery.org/data/pepquery-2.0.2.tar.gz>`_. 
 After you download it, please uncompress it using the following command line and you will find a jar file in the package folder. 
 The whole installation process typically only takes one or two minutes. Depending on where the file is downloaded you might need to adjust the path (see example below)
 
 .. code-block:: console
 
-   tar xvzf pepquery-2.0.2.tar.gz (or tar xvzf Downloads/pepquery-2.0.2.tar.gz) 
+   tar xvzf Downloads/pepquery-2.0.2.tar.gz (or tar xvzf pepquery-2.0.2.tar.gz) 
 
 If you want to run PepQuery with your own data you need to provide MS/MS data in 
 `MGF <http://www.matrixscience.com/help/data_file_help.html#GEN>`_ format, 
@@ -38,7 +38,7 @@ With the standalone version you can search all three datasets at the same time b
 
 .. code-block:: console
 
-   java -jar pepquery-2.0.2/pepquery-2.0.2.jar -b CPTAC_LUAD_Discovery_Study_Proteome_PDC000153,CPTAC_TCGA_Colon_Cancer_Proteome_PDC000111,CPTAC_Prospective_Ovarian_PNNL_Proteome_Qeplus_PDC000118 -db gencode:human -o pepquery_kras_g12d/ -i LVVVGADGVGK
+   java -jar pepquery-2.0.2/pepquery-2.0.2.jar -b CPTAC_LUAD_Discovery_Study_Proteome_PDC000153,CPTAC_TCGA_Colon_Cancer_Proteome_PDC000111,CPTAC_Prospective_Ovarian_PNNL_Proteome_Qeplus_PDC000118 -db gencode:human -o Desktop/pepquery_kras_g12d/ -i LVVVGADGVGK
 
 So let's take a closer look at the command line:
 
