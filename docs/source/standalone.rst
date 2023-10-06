@@ -23,6 +23,10 @@ The whole installation process typically only takes one or two minutes.
 
    tar xvzf pepquery-2.0.2.tar.gz
 
+If you want to run PepQuery with your own data you need to provide MS/MS data in 
+`MGF <http://www.matrixscience.com/help/data_file_help.html#GEN>`_ format, 
+a reference protein database in FASTA format and a peptide, protein, DNA sequence or a pair of peptide and spectrum ID
+
 Identifying novel peptides
 ----------------
 
