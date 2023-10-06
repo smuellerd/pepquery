@@ -3,7 +3,7 @@ Web Application
 
 Preparation
 ------------
-You can use PepQuery through `PepQuery Web <http://pepquery2.pepquery.org/>`. 
+You can use PepQuery through `PepQuery Web <http://pepquery2.pepquery.org/>`_. 
 To use PepQuery Web, you don't need to prepare the MS/MS data and protein reference database
 or install the PepQuery software. All you need to do is provide the target peptide/protein/DNA sequence
 which you want to identify. 
@@ -23,15 +23,15 @@ from the KRAS G12D mutation?
 
 **Parameters to set**
 
-Here is a list of parameters you can send in the Web Application. In `italic` you can find one of the inputs for the example above.
+Here is a list of parameters you can send in the Web Application. In `italic` you can find one input for the example above.
 
-- MS/MS dataset: select one MS/MS dataset which you want to search. `CPTAC_TCGA_Colon_cancer_Proteome_PDC000111`
-- Task type: novel or known peptide/protein identification. `Novel peptide/protein`
-- Target event: select the sequence class you provide (Peptide, protein and DNA sequences). `Peptide sequence`
-- Input peptide/protein/DNA sequence or a protein ID. For one search, only one sequence is accepted. `LVVVGADGVGK`
-- Reference database: a protein reference database. `gencode_v34_human`
-- Scoring algorithm: peptide spectrum scoring algorithm: Hyperscore and MVH are available and Hyperscore is recommended. `Hyperscore`
-- Fast searching mode: choose to use the fast mode for searching or not. In fast mode, only one better match from reference peptide-based competitive filtering steps will be returned. `Yes`
+- **MS/MS dataset**: select one MS/MS dataset which you want to search. `CPTAC_TCGA_Colon_cancer_Proteome_PDC000111`
+- **Task type**: novel or known peptide/protein identification. `Novel peptide/protein`
+- **Target event**: select the sequence class you provide (Peptide, protein and DNA sequences). `Peptide sequence`
+- **Input peptide/protein/DNA sequence or a protein ID**: For one search, only one sequence is accepted. `LVVVGADGVGK`
+- **Reference database**: a protein reference database. `gencode_v34_human`
+- **Scoring algorithm**: peptide spectrum scoring algorithm: Hyperscore and MVH are available and Hyperscore is recommended. `Hyperscore`
+- **Fast searching mode**: choose to use the fast mode for searching or not. In fast mode, only one better match from reference peptide-based competitive filtering steps will be returned. `Yes`
 
 
 **Results**
