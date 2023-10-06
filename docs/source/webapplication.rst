@@ -21,7 +21,7 @@ from the KRAS G12D mutation?
    The web server only allows to submit one job at a time.
 
 
-**Parameters to set **
+**Parameters to set**
 
 - MS/MS dataset: select one MS/MS dataset which you want to search. `CPTAC_TCGA_Colon_cancer_Proteome_PDC000111`
 - Task type: novel or known peptide/protein identification. `Novel peptide/protein`
