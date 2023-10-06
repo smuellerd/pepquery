@@ -35,8 +35,11 @@ from the KRAS G12D mutation?
 **Results**
 
 After running your query you get the following results:
+
 1. **Identification overview**: A list of the major parameters used in PepQuery including the command line to run it on the standalone version.
+
 2. **Identification results**: Overview of the PSMs with confident matches highlighted in green. An overview of the columns can be found `here <http://pepquery.org/document.html#saoutput>_`.
+
 3. **Spectrum annotation**: When you click on a PSM in the identification result you can see the corresponding spectrum. Additionally, you can look at the spectra from the best PSM in the reference database and the unrestricted modification-based search. 
 
 
