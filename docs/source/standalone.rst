@@ -17,11 +17,12 @@ application and run the following command:
 
 Next go to download the standalone version of PepQuery here <http://www.pepquery.org/data/pepquery-2.0.2.tar.gz>. 
 After you download it, please uncompress it using the following command line and you will find a jar file in the package folder. 
-The whole installation process typically only takes one or two minutes.
+The whole installation process typically only takes one or two minutes. Depending on where the file is downloaded you might need to adjust the path (see example below)
 
 .. code-block:: console
 
-   tar xvzf pepquery-2.0.2.tar.gz
+   tar xvzf pepquery-2.0.2.tar.gz 
+   #tar xvzf Downloads/pepquery-2.0.2.tar.gz 
 
 If you want to run PepQuery with your own data you need to provide MS/MS data in 
 `MGF <http://www.matrixscience.com/help/data_file_help.html#GEN>`_ format, 
@@ -30,20 +31,38 @@ a reference protein database in FASTA format and a peptide, protein, DNA sequenc
 Identifying novel peptides
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Let's repeat the example from the :doc:`webapplication` section: Can you identify the novel peptide LVVVGADGVGK 
+from the KRAS G12D mutation in the LUAD (lung adenocarcinoma), COAD (colon adenocarcinoma) and OV (ovarian cancer) datasets?
 
-.. autofunction:: lumache.get_random_ingredients
+Here you can search in all three datasets at the same time by running the following command:
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+.. code-block:: console
 
-.. autoexception:: lumache.InvalidKindError
+   java -jar pepquery-2.0.2/pepquery-2.0.2.jar -b CPTAC_LUAD_Discovery_Study_Proteome_PDC000153,CPTAC_TCGA_Colon_Cancer_Proteome_PDC000111,CPTAC_Prospective_Ovarian_PNNL_Proteome_Qeplus_PDC000118 -db gencode:human -o pepquery_kras_g12d/ -i LVVVGADGVGK
+Note
 
-For example:
+So let's take a closer look at the command line:
+- **java -jar pepquery-2.0.2/pepquery-2.0.2.jar**: Link to your PepQuery installment
+- **-b CPTAC_LUAD_Discovery_Study_Proteome_PDC000153,CPTAC_TCGA_Colon_Cancer_Proteome_PDC000111,CPTAC_Prospective_Ovarian_PNNL_Proteome_Qeplus_PDC000118**: This specifies the datasets you want to search in. Multiple datasets are seperated with a comma. A full list of datasets in the PepQueryDB is available with "java -jar pepquery-2.0.2/pepquery-2.0.2.jar -b show".
+- **-db gencode:human**: Specifies the reference database.
+- **-o pepquery_kras_g12d/**: Output folder where the results are saved.
+- **-i LVVVGADGVGK**: Input peptides. Multiple peptides would be seperated with a comma.
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+There are a lot more parameters that can be set in the standalone version which 
+are listed `here <http://pepquery.org/document.html#saparameter>`_.
+
+**Results**
+
+The results will appear in your specified output folder. The main result file of PepQuery is ptm_rank.txt. 
+This file includes the detailed identification results for the input target peptide. 
+You can open the psm_rank.txt file in excel and check how many PSMs 
+passed the quality checks (confident = 'Yes'). 
+
+For Result visualisation please refer to the official `PepQuery
+documentation <http://pepquery.org/document.html#savis>`_.
+
+
+.. note::
+
+   There are many other examples in the official `PepQuery Demo <http://pepquery.org/document.html#saexample>`_.
 
