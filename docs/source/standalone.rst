@@ -45,7 +45,7 @@ So let's take a closer look at the command line:
 - **java -jar pepquery-2.0.2/pepquery-2.0.2.jar**: Link to your PepQuery installment
 - **-b CPTAC_LUAD_Discovery_Study_Proteome_PDC000153, CPTAC_TCGA_Colon_Cancer_Proteome_PDC000111, CPTAC_Prospective_Ovarian_PNNL_Proteome_Qeplus_PDC000118**: This specifies the datasets you want to search in. Multiple datasets are seperated with a comma. A full list of datasets in the PepQueryDB is available with "java -jar pepquery-2.0.2/pepquery-2.0.2.jar -b show".
 - **-db gencode:human**: Specifies the reference database.
-- **-o pepquery_kras_g12d/**: Output folder where the results are saved.
+- **-o Desktop/pepquery_kras_g12d/**: Output folder where the results are saved.
 - **-i LVVVGADGVGK**: Input peptides. Multiple peptides would be seperated with a comma.
 
 There are a lot more parameters that can be set in the standalone version which 
