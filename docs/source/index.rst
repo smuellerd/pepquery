@@ -11,6 +11,9 @@ in the PepQueryDB from any computers with internet access. It also supports dire
 MS/MS data, any public datasets in PRIDE, MassIVE, jPOSTrepo and iProX, or Universal Spectrum 
 Identifiers (USIs) from ProteomeXchange.
 
+Here are also the `presentation slides <https://drive.google.com/file/d/1UdcSHnPVnVvp98Kd8oirGfQG5vlLPF_q/view?usp=sharing>`_ 
+which summarise how **PepQuery2** works. 
+
 Hands-on examples
 --------
 
