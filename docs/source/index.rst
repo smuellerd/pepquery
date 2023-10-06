@@ -38,6 +38,6 @@ Contents
 
 Manuscripts
 --------
-Wen, Bo, Xiaojing Wang, and Bing Zhang. "PepQuery enables fast, accurate, and convenient proteomic validation of novel genomic alterations." Genome research 29.3 (2019): 485-493.
+Wen, Bo, Xiaojing Wang, and Bing Zhang. "PepQuery enables fast, accurate, and convenient proteomic validation of novel genomic alterations." Genome research 29.3 (2019): 485-493. `https://doi.org/10.1101/gr.235028.118 <https://doi.org/10.1101/gr.235028.118>`_
 
-Wen, Bo, and Bing Zhang. "PepQuery2 democratizes public MS proteomics data for rapid peptide searching." Nature Communications 14.1 (2023): 2213.
+Wen, Bo, and Bing Zhang. "PepQuery2 democratizes public MS proteomics data for rapid peptide searching." Nature Communications 14.1 (2023): 2213. `https://doi.org/10.1038/s41467-023-37462-4 <https://doi.org/10.1038/s41467-023-37462-4>`_
